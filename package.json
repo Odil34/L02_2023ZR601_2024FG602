@@ -1,0 +1,24 @@
+{
+  "name": "l02_2023zr601_2024fg602",
+  "version": "1.0.0",
+  "description": "Web API para blog (usuarios, publicaciones y comentarios) con Express y PostgreSQL",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "dotenv": "^18.0.9",
+    "express": "^5.3.0",
+    "express-validator": "^7.3.2",
+    "pg": "^8.23.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
